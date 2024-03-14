@@ -23,3 +23,27 @@ kw = {
     'Krishna': 'Monitor'
 }
 funargs(normal, *har, **kw)
+
+
+
+# Another one
+def tup(*args):
+    for item in args:
+        print(f"hi {item}")
+def names():
+    tup('Harry', 'Naruto', 'Krishna', 'Siva', 'Ram')
+
+names()
+
+
+
+# Another Example
+def greet(*users):
+    for user in users:
+        print(f"Walcome {user}")
+
+def main():
+    greet('Feet', 'Harry', 'Tom')
+
+if __name__ == '__main__':
+    main()
