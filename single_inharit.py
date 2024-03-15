@@ -19,6 +19,7 @@ class Employee:
 
 
 class Programmer(Employee):
+    no_of_holiday = 56
     def __init__(self, name, salary, role, language):
         self.name = name
         self.salary = salary
@@ -39,3 +40,5 @@ rohit = Programmer("Rohit", 653, "Programmer", ['python', "Ruby"])
 print(rohit.print_prog())
 print(rohit.print_details())
 print(rohit.language)
+print(subham.no_of_holiday)
+print(Programmer.no_of_holiday)
