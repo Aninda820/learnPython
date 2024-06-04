@@ -1,4 +1,4 @@
-# Class method in python 
+# Class method in python  (setters and property Decorators)
 
 class Employee:
     company = 'Apple'
